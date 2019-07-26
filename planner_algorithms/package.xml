@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>planner_algorithms</name>
+  <version>0.0.0</version>
+  <description>A set of planning-related algorithms</description>
+
+  <author email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</author>
+  <maintainer email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>sm_logging</depend>
+  <depend>sm_common</depend>
+  <depend>sm_eigen</depend>
+  <depend>sm_property_tree</depend>
+  <depend>sm_timing</depend>
+  <depend>eigen_catkin</depend>
+  <depend>opencv2_catkin</depend>
+  <depend>planner_interfaces</depend>
+
+  <test_depend>gtest</test_depend>
+  <test_depend>sm_eigen</test_depend>
+  
+</package>

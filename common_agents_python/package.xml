@@ -1,0 +1,23 @@
+<package format="2">
+  
+  <name>common_agents_python</name>
+  <version>1.0.0</version>
+  <description>
+    python exports for common_agents
+  </description>
+  
+  <maintainer email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>python_module</depend>
+  <depend>numpy_eigen</depend>
+  <depend>common_agents</depend>
+  <depend>planner_interfaces_python</depend>
+  <depend>fcl_python</depend>
+  
+  <test_depend>gtest</test_depend>
+
+</package>

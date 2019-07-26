@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>simple_cache</name>
+  <version>0.0.0</version>
+  <description>Simple caching architecture</description>
+
+  <author email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</author>
+  <maintainer email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  
+  <depend>sm_logging</depend>
+  <depend>sm_timing</depend>
+
+  <test_depend>gtest</test_depend>
+  
+</package>

@@ -1,0 +1,22 @@
+<package format="2">
+
+  <name>planner_algorithms_python</name>
+  <version>1.0.0</version>
+  <description>
+    python exports for planner_algorithms
+  </description>
+
+  <maintainer email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>python_module</depend>
+  <depend>numpy_eigen</depend>
+  <depend>planner_interfaces</depend>
+  <depend>planner_algorithms</depend>
+
+  <test_depend>gtest</test_depend>
+
+</package>

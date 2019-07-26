@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>common_agents</name>
+  <version>0.0.0</version>
+  <description>Congregation of common agents</description>
+
+  <author email="mark.pfeiffer@mavt.ethz.ch">Mark Pfeiffer</author>
+  <maintainer email="mark.pfeiffer@mavt.ethz.ch">Mark Pfeiffer</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>planner_interfaces</depend>
+  
+</package>

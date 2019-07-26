@@ -1,0 +1,26 @@
+<package format="2">
+  
+  <name>probabilistic_planner_python</name>
+  <version>1.0.0</version>
+  <description>
+    python exports for probabilistic_planner
+  </description>
+  
+  <maintainer email="ulrich.schwesinger@mavt.ethz.ch">Ulrich Schwesinger</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>python_module</depend>
+  <depend>numpy_eigen</depend>
+  <depend>common_agents</depend>
+  <depend>probabilistic_planner</depend>
+  <depend>planner_interfaces_python</depend>
+  <depend>aslam_backend_python</depend>
+  <depend>common_agents_python</depend>
+  <depend>planner_algorithms_python</depend>  
+  
+  <test_depend>gtest</test_depend>
+
+</package>
